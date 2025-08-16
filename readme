@@ -1,0 +1,39 @@
+📚 Sistema de Biblioteca (Java)
+
+Projeto simples em Java para gerir uma biblioteca com livros, utilizadores e empréstimos.
+Organizado em pacotes para facilitar a manutenção e escalabilidade.
+
+🚀 Como executar o projeto
+1. Pré-requisitos
+
+Ter o Java JDK instalado (versão 11 ou superior).
+
+Confirmar a instalação:
+
+java -version
+javac -version
+
+2. Clonar ou copiar o projeto
+
+Estrutura de pastas:
+
+Biblioteca/
+ ├── src/
+ │    └── app/
+ │         ├── Biblioteca.java
+ │         ├── Livro.java
+ │         ├── Util.java
+ │         └── Main.java
+
+3. Compilar o projeto
+
+No terminal/cmd, acede à pasta src:
+
+cd src
+javac app/*.java
+
+4. Executar o projeto
+
+Após compilar, roda o Main:
+
+java app.Main
